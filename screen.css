@@ -3,6 +3,7 @@ body {
     font-family: Helvetica, sans-serif;
     border-top: 15px solid #424242;
     margin: 0;
+    color: #424242;
 }
 
 main {
@@ -14,7 +15,7 @@ main {
     background-image: url('Sakura_Fubuki.jpg');
     background-size: cover;
     background-position: center;
-    height: 300px;
+    height: 240px;
     border-radius: 20px;
     margin-top: 50px;
 }
@@ -28,17 +29,44 @@ main {
     flex-grow: 1;
     flex-basis: 0;
     background: #ccc;
-    padding: 25px;
     border-radius: 20px;
     margin-top: 50px;
 }
 
+.details section p {
+    margin: 20px;
+}
+
+.details section h2 {
+    margin: 20px;
+}
+
+.details section.with-code {
+    padding: 0;
+}
+
+div.code-html {
+    padding: 25px;
+    background-color: #424242;
+    color: #fff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
 
 img {
     width: 100%;
     border-radius: 20px;
 }
 
+h1 {
+    background-image: url('000031.png');
+    background-repeat: no-repeat;
+    background-size: 55px;
+    background-position: center left;
+    font-size: 3em;
+    padding-left: 70px;
+    margin: 80px 0 25px 0;
+}
 
 h2 {
     margin: 0 0 10px 0;
