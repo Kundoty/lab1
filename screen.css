@@ -15,6 +15,7 @@ main {
     background-image: url('Sakura_Fubuki.jpg');
     background-size: cover;
     background-position: center;
+    /*background: no-repeat bottom / cover url('Sakura_Fubuki.jpg');*/
     height: 240px;
     border-radius: 20px;
     margin-top: 50px;
@@ -28,7 +29,7 @@ main {
 .details section {
     flex-grow: 1;
     flex-basis: 0;
-    background: #ccc;
+    background: #E9EAEC;
     border-radius: 20px;
     margin-top: 50px;
 }
